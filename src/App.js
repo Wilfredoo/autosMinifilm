@@ -7,10 +7,7 @@ function App() {
   const [autoImages, setAutoImages] = useState(null)
   const [errorPage, setErroPage] = useState(true)
 
-
-
   useEffect(() => {
-    console.log("autos", autos)
     setAutoImages(autos)
   }, []);
 
